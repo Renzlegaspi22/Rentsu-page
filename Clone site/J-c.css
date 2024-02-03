@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+}
+.container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px 0;
+
+
+}
+
+.flex-start {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #393f75;
+    border-radius: 20px;
+    padding: 10px 10px;
+    width: 50%;
+    margin: 20px;
+}
+
+.start {
+    background-color: #bebebe;
+    border-radius: 50%;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #393f75;
+    border-radius: 20px;
+    padding: 10px 10px;
+    width: 50%;
+    margin: 20px;
+}
+
+.end {
+    background-color: #bebebe;
+    border-radius: 50%;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    background-color: #393f75;
+    border-radius: 20px;
+    padding: 10px 10px;
+    width: 50%;
+    margin: 20px;
+}
+
+.ctr {
+    background-color: #bebebe;
+    border-radius: 50%;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+}
+
+.space-between{
+    display: flex;
+    justify-content: space-between;
+    background-color: #393f75;
+    border-radius: 20px;
+    padding: 10px 10px;
+    width: 50%;
+    margin: 20px;
+}
+
+.between {
+    background-color: #bebebe;
+    border-radius: 50%;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+}
+
+.space-around{
+    display: flex;
+    justify-content: space-around;
+    background-color: #393f75;
+    border-radius: 20px;
+    padding: 10px 10px;
+    width: 50%;
+    margin: 20px;
+}
+
+.around {
+    background-color: #bebebe;
+    border-radius: 50%;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+}
+
+.space-evenly{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #393f75;
+    border-radius: 20px;
+    padding: 10px 10px;
+    width: 50%;
+    margin: 20px;
+}
+
+.evenly {
+    background-color: #bebebe;
+    border-radius: 50%;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+}

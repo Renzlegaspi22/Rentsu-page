@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.Fb-quote{
+    font-family: Arial;
+    font-weight: normal;
+    margin: 0;
+
+}
+
+.Login-container{
+    width: 385px;
+    margin: 30px auto;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.Login-container input {
+    display: block;
+    width: 92%;
+    outline: none;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+.btn-login{
+    width: 100%;
+    display: block;
+    margin-top: 15px;
+    padding: 15px 0;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #1877f2;
+}
+
+.forgot {
+    margin: 15px 0;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 14px;
+
+}
+
+.Forgot:hover{
+    text-decoration: underline;
+
+}
+
+hr{
+    margin: 25px 0;
+    opacity: 0.3;
+
+}
+
+.btn-create{
+    margin: 15px auto;
+    display: block;
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #42b72a;
+}
+
+.b-text{
+    font-family: arial;
+    font-size: 14px;
+}
+.Create-page{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.Create-page:hover{
+    text-decoration: underline;
+}
